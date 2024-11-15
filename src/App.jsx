@@ -1,8 +1,6 @@
 import './App.css'
+import SearchButton from './components/SearchButton'
 
-function App() {
-
-  return <h1 className="">Hello There!</h1>
-}
+function App() {}
 
 export default App
