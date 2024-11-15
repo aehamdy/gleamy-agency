@@ -1,9 +1,8 @@
 import './App.css'
-import LeftHeaderPanel from './components/LeftHeaderPanel'
-import RightHeaderPanel from './components/RightHeaderPanel'
+import Logo from './components/Logo'
 
 function App() {
-  return <LeftHeaderPanel />
+  return <Logo />
 }
 
 export default App
