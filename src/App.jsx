@@ -1,6 +1,8 @@
 import './App.css'
-import SearchButton from './components/SearchButton'
+import MenuButton from './components/MenuButton'
 
-function App() {}
+function App() {
+  return <MenuButton />
+}
 
 export default App
