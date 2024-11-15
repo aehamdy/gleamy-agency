@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'white': '#fff',
+        'white-03': 'rgba(255, 255, 255, 0.3)',
+      },
       transitionDuration: {
         'short': '300ms',
       }

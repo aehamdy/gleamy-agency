@@ -1,8 +1,9 @@
 import './App.css'
 import MenuButton from './components/MenuButton'
+import RightHeaderPanel from './components/RightHeaderPanel'
 
 function App() {
-  return <MenuButton />
+  return <RightHeaderPanel />
 }
 
 export default App
