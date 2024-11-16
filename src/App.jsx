@@ -3,6 +3,7 @@ import Header from './components/Header'
 import MarqueeBar from './components/MarqueeBar'
 import SpecialitiesBar from './components/SpecialitiesBar'
 import SpinningLogo from './components/SpinningLogo'
+import WatchVideoButton from './components/WatchVideoButton'
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
   <Header />
   <SpinningLogo />
   <SpecialitiesBar />
-  <MarqueeBar textColor="white-fa" bgColor="gray-21" />
-  <MarqueeBar textColor="gray-21" bgColor="white-fa" />
+  {/* <MarqueeBar textColor="white-fa" bgColor="gray-21" /> */}
+  {/* <MarqueeBar textColor="gray-21" bgColor="white-fa" /> */}
+  <WatchVideoButton />
   </div>
 )
 }
