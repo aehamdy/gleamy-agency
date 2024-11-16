@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 :root {
+  --marquee-gap: 1rem;
+
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
   font-weight: 400;
