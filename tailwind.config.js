@@ -13,6 +13,15 @@ export default {
       },
       transitionDuration: {
         'short': '300ms',
+      },
+      keyframes: {
+        rotate: {
+          '0%': {transform: 'rotate(360deg)'},
+          '100%': {transform: 'rotate(0deg)'},
+        },
+      },
+      animation: {
+        'rotate-slow': 'rotate 5s linear infinite',
       }
     },
   },
