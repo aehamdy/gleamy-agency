@@ -24,3 +24,8 @@ body {
   min-height: 100vh;
   background-color: #000;
 }
+
+.vertical-text {
+  writing-mode: vertical-lr;
+  text-orientation: mixed
+}
