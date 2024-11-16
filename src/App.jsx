@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header'
+import HeroHeading from './components/HeroHeading'
 import MarqueeBar from './components/MarqueeBar'
 import SpecialitiesBar from './components/SpecialitiesBar'
 import SpinningLogo from './components/SpinningLogo'
@@ -11,6 +12,7 @@ function App() {
   <Header />
   <SpinningLogo />
   <SpecialitiesBar />
+  <HeroHeading />
   {/* <MarqueeBar textColor="white-fa" bgColor="gray-21" /> */}
   {/* <MarqueeBar textColor="gray-21" bgColor="white-fa" /> */}
   <WatchVideoButton />
