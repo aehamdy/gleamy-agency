@@ -1,6 +1,7 @@
 import './App.css'
 import AboutUsContent from './components/AboutUsContent'
 import AboutUsHeading from './components/AboutusHeading'
+import Button from './components/Button'
 import Header from './components/Header'
 import HeroHeading from './components/HeroHeading'
 import MarqueeBar from './components/MarqueeBar'
@@ -21,6 +22,7 @@ function App() {
   {/* <SectionHeading text="about us" /> */}
   <AboutUsHeading />
   <AboutUsContent />
+  <Button text="Contact Us" />
   <WatchVideoButton />
   </div>
 )
