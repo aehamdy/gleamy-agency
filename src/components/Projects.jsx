@@ -4,7 +4,6 @@ import project3 from "../assets/projects/project-3.jpg";
 import ProjectCard from "./ProjectCard";
 
 function Projects() {
-
     const projects = [
         {
             underneathText: "Gleamy",
@@ -24,16 +23,15 @@ function Projects() {
             heading: "Gleamy Showreel",
             type: "UI/UX",
         },
-    ]
+    ];
 
-    
     return (
-        <section className="flex gap-4 overflow-x-scroll lg:overflow-x-hidden snap-x lg:snap-none">
+        <section className="flex gap-4 overflow-x-scroll lg:overflow-x-hidden flex-nowrap snap-x px-4 lg:justify-center">
             {projects.map((project, i) => (
                 <ProjectCard key={i} project={project} />
             ))}
         </section>
-    )
+    );
 }
 
 export default Projects;

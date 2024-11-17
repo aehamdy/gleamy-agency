@@ -13,6 +13,7 @@ export default {
         sectionHeadingClamp: 'clamp(1rem, 3vw, 2.5rem)',
         headingClamp: 'clamp(.9rem, 5vw, 1.3rem)',
         paragraphClamp: 'clamp(.8rem, 2vw, 1rem)',
+        projectTextClamp: 'clamp(1.8rem, 5vw, 2.5rem)',
       },
       fontFamily: {
         'roboto': "Roboto, sans-serif",
