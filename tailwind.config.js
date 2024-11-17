@@ -9,6 +9,9 @@ export default {
       spacing: {
         'marquee-gap': '2rem', // Adjust the gap size as needed
       },
+      fontSize: {
+        sectionHeadingClamp: 'clamp(1rem, 3vw, 2.5rem)',
+      },
       fontFamily: {
         'roboto': "Roboto, sans-serif",
       },
@@ -23,12 +26,17 @@ export default {
         'short': '300ms',
       },
       keyframes: {
+        'rotate-slow': {
+          '0%': {transform: 'rotate(0deg)'},
+          '100%': {transform: 'rotate(360deg)'},
+        },
         marquee: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-100%)' },
         },
       },
       animation: {
+        'rotate-slow': 'rotate-slow 5s linear infinite',
         'marquee': 'marquee 10s linear infinite',
       },
     },
