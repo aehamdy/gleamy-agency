@@ -28,7 +28,7 @@ function Projects() {
 
     
     return (
-        <section className="flex gap-4">
+        <section className="flex gap-4 overflow-x-scroll lg:overflow-x-hidden snap-x lg:snap-none">
             {projects.map((project, i) => (
                 <ProjectCard key={i} project={project} />
             ))}
