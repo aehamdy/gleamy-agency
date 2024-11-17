@@ -1,4 +1,5 @@
 import './App.css'
+import AboutUsContent from './components/AboutUsContent'
 import AboutUsHeading from './components/AboutusHeading'
 import Header from './components/Header'
 import HeroHeading from './components/HeroHeading'
@@ -19,6 +20,7 @@ function App() {
   {/* <MarqueeBar textColor="gray-21" bgColor="white-fa" /> */}
   {/* <SectionHeading text="about us" /> */}
   <AboutUsHeading />
+  <AboutUsContent />
   <WatchVideoButton />
   </div>
 )

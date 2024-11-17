@@ -12,6 +12,7 @@ export default {
       fontSize: {
         sectionHeadingClamp: 'clamp(1rem, 3vw, 2.5rem)',
         headingClamp: 'clamp(.9rem, 5vw, 1.3rem)',
+        paragraphClamp: 'clamp(.8rem, 2vw, 1rem)',
       },
       fontFamily: {
         'roboto': "Roboto, sans-serif",
@@ -20,6 +21,7 @@ export default {
         'accent': '#FF7E21',
         'white': '#fff',
         'white-fa': '#FAFAFA',
+        'paragraph-color': '#CBCBCB',
         'white-03': 'rgba(255, 255, 255, 0.3)',
         'gray-21': '#212121',
       },
