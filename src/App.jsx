@@ -6,6 +6,7 @@ import Header from './components/Header'
 import HeroHeading from './components/HeroHeading'
 import MarqueeBar from './components/MarqueeBar'
 import OneLetter from './components/OneLetter'
+import ProjectCard from './components/ProjectCard'
 import SectionHeading from './components/SectionHeading'
 import ServiceCard from './components/ServiceCard'
 import Services from './components/Services'
@@ -20,7 +21,7 @@ function App() {
   {/* <MarqueeBar textColor="white-fa" bgColor="gray-21" /> */}
   {/* <MarqueeBar textColor="gray-21" bgColor="white-fa" /> */}
   {/* <SectionHeading text="about us" /> */}
-  <Services />
+  <ProjectCard />
   </div>
 )
 }
