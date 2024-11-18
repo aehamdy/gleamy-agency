@@ -11,9 +11,9 @@ export default {
       },
       fontSize: {
         navItemClamp: 'clamp(2rem, 3vw, 2.2rem)',
-        sectionHeadingClamp: 'clamp(1rem, 3vw, 2.5rem)',
-        headingClamp: 'clamp(.9rem, 5vw, 1.3rem)',
-        paragraphClamp: 'clamp(.8rem, 2vw, 1rem)',
+        sectionHeadingClamp: 'clamp(2rem, 3vw, 3.5rem)',
+        headingClamp: 'clamp(1.6rem, 4vw, 2.25rem)',
+        paragraphClamp: 'clamp(1.3rem, 2.5vw, 2rem)',
         projectTextClamp: 'clamp(1.8rem, 5vw, 2.5rem)',
       },
       fontFamily: {
@@ -24,7 +24,8 @@ export default {
         'accent': '#ff8d3c',
         'white': '#fff',
         'white-fa': '#FAFAFA',
-        'paragraph-color': '#CBCBCB',
+        // 'paragraph-color': '#CBCBCB',
+        'paragraph-color': 'rgb(157, 157, 157)',
         'white-03': 'rgba(255, 255, 255, 0.3)',
         'gray-21': '#212121',
       },
