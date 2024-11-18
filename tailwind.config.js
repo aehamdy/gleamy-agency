@@ -20,7 +20,8 @@ export default {
         'roboto': "Roboto, sans-serif",
       },
       colors: {
-        'accent': '#FF7E21',
+        // 'accent': '#FF7E21',
+        'accent': '#ff8d3c',
         'white': '#fff',
         'white-fa': '#FAFAFA',
         'paragraph-color': '#CBCBCB',
