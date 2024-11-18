@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import AboutUsContent from './components/AboutUsContent'
 import AboutUsHeading from './components/AboutusHeading'
@@ -17,9 +18,15 @@ import SpinningLogo from './components/SpinningLogo'
 import WatchVideoButton from './components/WatchVideoButton'
 
 function App() {
+  const [isNavExpanded, setIsNavExpanded] = useState(true);
+
+  const handleNavVisibility = () => {
+    setIsNavExpanded(prevValue => !prevValue);
+  }
+
   return (
     <>
-  <NavList />
+  <NavList isNavExpanded={isNavExpanded} />
   <div className="flex flex-col">
   <Header />
   {/* <MarqueeBar textColor="white-fa" bgColor="gray-21" /> */}

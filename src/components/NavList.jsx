@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import ListItem from "./ListItem";
 
-function NavList() {
+function NavList({ isNavExpanded }) {
     const listItems = [
         {
             text: 'Home',
@@ -21,7 +22,7 @@ function NavList() {
     ];
 
     return (
-        <nav className="grid place-items-center absolute w-full h-[100dvh] start-0 bg-accent z-50">
+        <nav className={`grid place-items-center absolute w-full h-[100dvh] ${isNavExpanded ? 'top-0 visible' : 'top-[-100%] invisible'} start-0 bg-accent z-50 duration-500`}>
             <ul className="w-full">
                 {listItems.map((item, i) => (
                     <ListItem key={i} link={item.link} text={item.text} />
