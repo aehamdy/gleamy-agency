@@ -14,7 +14,9 @@ function PageLayout({ isNavExpanded, handleNavVisibility, }) {
         <SpinningLogo />
         <SpecialitiesBar />
         <WatchVideoButton />
+        <div className="ms-[8%]">
         <Outlet />
+        </div>
         </>
     )
 }

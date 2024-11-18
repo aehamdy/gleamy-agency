@@ -1,13 +1,8 @@
+import HeroHeading from "../components/HeroHeading";
+
 function LandingPage() {
 
-  return (
-    <>
-  {/* <NavList isNavExpanded={isNavExpanded} />
-  <div className="flex flex-col">
-  <Header isNavExpanded={isNavExpanded} handleNavVisibility={handleNavVisibility} />
-  </div> */}
-    </>
-)
+  return <HeroHeading />
 }
 
 export default LandingPage;
