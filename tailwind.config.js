@@ -10,7 +10,7 @@ export default {
         'marquee-gap': '2rem', // Adjust the gap size as needed
       },
       fontSize: {
-        navItemClamp: 'clamp(2rem, 2vw, 6rem)',
+        navItemClamp: 'clamp(2rem, 3vw, 2.2rem)',
         sectionHeadingClamp: 'clamp(1rem, 3vw, 2.5rem)',
         headingClamp: 'clamp(.9rem, 5vw, 1.3rem)',
         paragraphClamp: 'clamp(.8rem, 2vw, 1rem)',
