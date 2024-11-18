@@ -8,7 +8,7 @@ function NavList({ isNavExpanded }) {
             text: 'Home',
         },
         {
-            link: '/aboutus',
+            link: '/about',
             text: 'About Us',
         },
         {

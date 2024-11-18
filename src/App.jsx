@@ -5,6 +5,7 @@ import LandingPage from "./pages/LandingPage";
 import PageLayout from "./pages/PageLayout";
 import AboutSection from './pages/AboutSection';
 import ServicesSection from './pages/ServicesSection';
+import PortfolioSection from './pages/PortfolioSection';
 
 function App() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -27,8 +28,12 @@ function App() {
           element: <AboutSection />
         },
         {
-          path: "services",
+          path: "/services",
           element: <ServicesSection />
+        },
+        {
+          path: "/portfolio",
+          element: <PortfolioSection />
         }
       ]
     },
