@@ -9,7 +9,7 @@ import NavList from "../components/NavList";
 function PageLayout({ isNavExpanded, handleNavVisibility, }) {
     return(
         <>
-        <NavList isNavExpanded={isNavExpanded} />
+        <NavList isNavExpanded={isNavExpanded} handleNavVisibility={handleNavVisibility} />
         <Header isNavExpanded={isNavExpanded} handleNavVisibility={handleNavVisibility} />
         <SpinningLogo />
         <SpecialitiesBar />
