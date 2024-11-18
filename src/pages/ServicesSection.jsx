@@ -10,7 +10,6 @@ function ServicesSection() {
                 <OutlineText text="S" />
                 <Services />
             </div>
-            <OutlineText text="THE CR8TIVE" />
         </section>
     )
 }
