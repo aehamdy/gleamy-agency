@@ -3,7 +3,7 @@ import AboutUsHeading from "../components/AboutUsHeading";
 import AboutUsContent from "../components/AboutUsContent";
 import OutlineText from "../components/OutlineText";
 
-function AboutUs() {
+function AboutSection() {
     return(
         <section>
             <SectionHeading text="About Us"/>
@@ -20,4 +20,4 @@ function AboutUs() {
     )
 }
 
-export default AboutUs;
+export default AboutSection;
