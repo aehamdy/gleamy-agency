@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { useState } from "react";
 import LandingPage from "./pages/LandingPage";
 import PageLayout from "./pages/PageLayout";
+import AboutUs from './pages/AboutUs';
 
 function App() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -20,6 +21,10 @@ function App() {
           path: "/",
           element: <LandingPage />
         },
+        {
+          path: "/aboutus",
+          element: <AboutUs />
+        }
       ]
     },
   ])
