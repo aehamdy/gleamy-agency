@@ -4,10 +4,10 @@ import Services from "../components/Services";
 
 function ServicesSection() {
     return(
-        <section>
+        <section className="relative flex flex-col gap-8 text-start mt-[25%] md:mt-[5%]">
             <SectionHeading text="Services" />
-            <div className="flex items-center">
                 <OutlineText text="S" />
+            <div className="flex items-center z-[5]">
                 <Services />
             </div>
         </section>

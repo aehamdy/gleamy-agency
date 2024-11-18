@@ -9,7 +9,7 @@ function ServiceCard({ headingText }) {
                 <p className="text-paragraph-color leading-7">
                     Bringing the history of your brand to the forefront gives an emotional
                     dimension to your visual identity, which is essential today more than ever
-                    in today's digital landscape.
+                    in today`&apos;`s digital landscape.
                 </p>
             </div>
             <ServiceCardButton />
