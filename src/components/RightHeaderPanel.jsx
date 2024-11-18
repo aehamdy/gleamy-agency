@@ -2,6 +2,9 @@ import MenuButton from "./MenuButton";
 import SearchButton from "./SearchButton";
 
 function RightHeaderPanel() {
+
+    
+
     return(
         <div className="flex gap-10 h-6">
             <SearchButton />
