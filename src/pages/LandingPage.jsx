@@ -1,8 +1,9 @@
 import { useState } from 'react'
-import Header from '../components/Header'
-import NavList from '../components/NavList'
+import './App.css'
+import Header from './components/Header'
+import NavList from './components/NavList'
 
-function App() {
+function LandingPage() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   const handleNavVisibility = () => {
@@ -19,4 +20,4 @@ function App() {
 )
 }
 
-export default App
+export default LandingPage;
