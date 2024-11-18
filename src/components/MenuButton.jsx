@@ -1,9 +1,9 @@
-import { useState } from "react";
+/* eslint-disable react/prop-types */
 
-function MenuButton() {
+function MenuButton({ isNavExpanded, handleNavVisibility }) {
 
     const handleButtonClick = () => {
-        setIsNavExpanded(prevValue => !prevValue);
+        handleNavVisibility()
     }
 
     return(

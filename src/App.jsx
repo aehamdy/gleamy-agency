@@ -28,7 +28,7 @@ function App() {
     <>
   <NavList isNavExpanded={isNavExpanded} />
   <div className="flex flex-col">
-  <Header />
+  <Header isNavExpanded={isNavExpanded} handleNavVisibility={handleNavVisibility} />
   {/* <MarqueeBar textColor="white-fa" bgColor="gray-21" /> */}
   {/* <MarqueeBar textColor="gray-21" bgColor="white-fa" /> */}
   {/* <SectionHeading text="about us" /> */}
