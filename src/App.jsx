@@ -5,6 +5,7 @@ import Button from './components/Button'
 import Header from './components/Header'
 import HeroHeading from './components/HeroHeading'
 import MarqueeBar from './components/MarqueeBar'
+import NavList from './components/NavList'
 import OneLetter from './components/OneLetter'
 import ProjectCard from './components/ProjectCard'
 import Projects from './components/Projects'
@@ -17,13 +18,16 @@ import WatchVideoButton from './components/WatchVideoButton'
 
 function App() {
   return (
+    <>
+  <NavList />
   <div className="flex flex-col">
   <Header />
   {/* <MarqueeBar textColor="white-fa" bgColor="gray-21" /> */}
   {/* <MarqueeBar textColor="gray-21" bgColor="white-fa" /> */}
   {/* <SectionHeading text="about us" /> */}
-  <Projects />
+  {/* <Projects /> */}
   </div>
+    </>
 )
 }
 
