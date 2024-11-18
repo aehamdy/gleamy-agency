@@ -1,22 +1,15 @@
-import { useState } from 'react'
-import Header from '../components/Header'
-import NavList from '../components/NavList'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
-  const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <LandingPage />
+    },
+  ])
 
-  const handleNavVisibility = () => {
-    setIsNavExpanded(prevValue => !prevValue);
-  }
-
-  return (
-    <>
-  <NavList isNavExpanded={isNavExpanded} />
-  <div className="flex flex-col">
-  <Header isNavExpanded={isNavExpanded} handleNavVisibility={handleNavVisibility} />
-  </div>
-    </>
-)
+  return <RouterProvider router={router} />
 }
 
-export default App
+export default App;

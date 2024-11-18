@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import './App.css'
-import Header from './components/Header'
-import NavList from './components/NavList'
+import '../App.css'
+import Header from '../components/Header'
+import NavList from '../components/NavList'
 
 function LandingPage() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);

@@ -4,20 +4,20 @@ import ListItem from "./ListItem";
 function NavList({ isNavExpanded }) {
     const listItems = [
         {
+            link: '/',
             text: 'Home',
-            link: '#',
         },
         {
+            link: '/aboutus',
             text: 'About Us',
-            link: '#',
         },
         {
+            link: '/services',
             text: 'Services',
-            link: '#',
         },
         {
+            link: '/portfolio',
             text: 'Portfolio',
-            link: '#',
         },
     ];
 
