@@ -13,7 +13,3 @@ function LandingPage() {
 }
 
 export default LandingPage;
-
-// make a commit with this message "Feat: Implement MarqueeBar component in LandingPage component"
-// TODO: Adjust MarqueeBar on different screens
-// TODO: Bring Header, SpinningLogo, SpecialitiesBar, WatchVideoButton on top by z-index to set MarqueeBar at the bottom
