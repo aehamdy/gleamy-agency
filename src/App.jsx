@@ -6,12 +6,18 @@ import PageLayout from "./pages/PageLayout";
 import AboutSection from './pages/AboutSection';
 import ServicesSection from './pages/ServicesSection';
 import PortfolioSection from './pages/PortfolioSection';
+import LoadingScreen from './components/LoadingScreen';
 
 function App() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   const handleNavVisibility = () => {
     setIsNavExpanded(prevValue => !prevValue);
+  };
+
+  const handlePageLoadComplete = () => {
+    setIsLoading(false);
   }
 
   const router = createBrowserRouter([
@@ -39,7 +45,12 @@ function App() {
     },
   ])
 
-  return <RouterProvider router={router} />
+  return (
+    <>
+      <LoadingScreen isVisible={isLoading} onComplete={handlePageLoadComplete} />
+      {!isLoading && <RouterProvider router={router} />}
+    </>
+)
 }
 
 export default App;

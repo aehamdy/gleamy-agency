@@ -29,8 +29,15 @@ export default {
         'white-03': 'rgba(255, 255, 255, 0.3)',
         'gray-21': '#212121',
       },
+      transitionProperty: {
+        'transform': 'transform',
+      },
+      transitionTimingFunction: {
+        'ease-out': 'ease-out',
+      },
       transitionDuration: {
         'short': '300ms',
+        '500': '500ms',
       },
       keyframes: {
         'rotate-slow': {
