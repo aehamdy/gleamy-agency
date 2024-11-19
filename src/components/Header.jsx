@@ -5,7 +5,7 @@ import RightHeaderPanel from "./RightHeaderPanel";
 
 function Header({ isNavExpanded, handleNavVisibility }) {
     return(
-        <header className="flex justify-between items-center py-8">
+        <header className="relative flex justify-between items-center py-8 z-[1]">
             <LeftHeaderPanel />
             <Logo />
             <RightHeaderPanel isNavExpanded={isNavExpanded} handleNavVisibility={handleNavVisibility} />
