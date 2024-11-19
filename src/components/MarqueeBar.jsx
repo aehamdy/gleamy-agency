@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-function MarqueeBar({ textColor, bgColor }) {
+function MarqueeBar({ variant}) {
     const content = [
       'creative design',
       'ui/ux',
@@ -11,9 +11,9 @@ function MarqueeBar({ textColor, bgColor }) {
   
     return (
       <div
-        className={`relative py-3 font-roboto text-center overflow-hidden text-${textColor} bg-${bgColor}`}
+        className={`absolute left-0 -translate-y-1/2 -translate-x-[50vw] w-[200vw] py-3 font-roboto text-center ${variant} z-0 overflow-hidden pointer-events-none`}
       >
-        <div className="flex space-x-8 animate-marquee">
+        <div className="flex space-x-8 w-[120vw] animate-marquee ">
           {Array(4)
             .fill(content)
             .flat()
