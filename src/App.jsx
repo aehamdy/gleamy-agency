@@ -7,6 +7,7 @@ import AboutSection from './pages/AboutSection';
 import ServicesSection from './pages/ServicesSection';
 import PortfolioSection from './pages/PortfolioSection';
 import LoadingScreen from './components/LoadingScreen';
+import ErrorPage from './pages/ErrorPage';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -19,6 +20,7 @@ function App() {
     {
       path: "/",
       element: <PageLayout />,
+      errorElement: <ErrorPage />,
       children: [
         {
           path: "/",
