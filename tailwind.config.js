@@ -44,14 +44,13 @@ export default {
           '0%': {transform: 'rotate(0deg)'},
           '100%': {transform: 'rotate(360deg)'},
         },
-        marquee: {
-          '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-100%)' },
+        'marquee-move-text': {
+          'to': { transform: 'translateX(-50%)' },
         },
       },
       animation: {
         'rotate-slow': 'rotate-slow 5s linear infinite',
-        'marquee': 'marquee 10s linear infinite',
+        'marquee-move-text': 'marquee-move-text 10s linear infinite',
       },
     },
   },
