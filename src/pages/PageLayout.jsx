@@ -5,13 +5,12 @@ import SpecialitiesBar from "../components/SpecialitiesBar";
 import WatchVideoButton from "../components/WatchVideoButton";
 import { Outlet } from "react-router-dom";
 import NavList from "../components/NavList";
-import LoadingScreen from "../components/LoadingScreen";
 
 function PageLayout({ isNavExpanded, handleNavVisibility, }) {
     return(
         <>
         <NavList isNavExpanded={isNavExpanded} handleNavVisibility={handleNavVisibility} />
-        <Header isNavExpanded={isNavExpanded} handleNavVisibility={handleNavVisibility} />
+        <Header handleNavVisibility={handleNavVisibility} />
         <SpinningLogo />
         <SpecialitiesBar />
         <WatchVideoButton />
