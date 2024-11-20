@@ -30,7 +30,7 @@ function LoadingScreen({ isVisible, onComplete }) {
 
   return (
     <section
-      className={`fixed grid place-items-center w-full transition-[height,top,bottom] duration-500 ${
+      className={`fixed grid place-items-center w-full start-0 transition-[height,top,bottom] duration-500 ${
         isAnimating
           ? isShrinking
             ? "h-0 top-0 bottom-auto" // Shrink to top
