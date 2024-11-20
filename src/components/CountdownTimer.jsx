@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const REDIRECT_COUNT = 10000;
+const REDIRECT_COUNT = 10;
 const COUNTDOWN_INTERVAL = 1000;
 const HOME_LINK = "/";
 
