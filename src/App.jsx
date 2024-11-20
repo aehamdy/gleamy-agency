@@ -9,12 +9,7 @@ import PortfolioSection from './pages/PortfolioSection';
 import LoadingScreen from './components/LoadingScreen';
 
 function App() {
-  const [isNavExpanded, setIsNavExpanded] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
-
-  const handleNavVisibility = () => {
-    setIsNavExpanded(prevValue => !prevValue);
-  };
 
   const handlePageLoadComplete = () => {
     setIsLoading(false);
@@ -23,7 +18,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <PageLayout isNavExpanded={isNavExpanded} handleNavVisibility={handleNavVisibility} />,
+      element: <PageLayout />,
       children: [
         {
           path: "/",
