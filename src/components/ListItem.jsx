@@ -9,7 +9,7 @@ function ListItem({ link, text, handleNavVisibility }) {
                 className={({ isActive }) =>
                     `relative inline-block w-full py-8 before:absolute before:w-full before:h-0 hover:before:h-full 
                      before:start-0 before:bottom-0 before:bg-neutral-950 before:transition-all before:duration-short 
-                     before:z-[-1] duration-short ${isActive ? 'text-gray-300 bg-neutral-950' : ''}`
+                     before:z-[-1] duration-short ${isActive ? 'text-gray-300 hover:text-accent bg-neutral-950' : ''}`
                 }
             >
             {text.toUpperCase()}
