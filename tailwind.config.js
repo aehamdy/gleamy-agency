@@ -10,7 +10,7 @@ export default {
         'marquee-gap': '2rem',
         'spacing-sm': '30%',
         'spacing-md': '15%',
-        'spacing-lg': '5%',
+        'spacing-lg': '2%',
       },
       fontSize: {
         navItemClamp: 'clamp(2rem, 3vw, 2.2rem)',
