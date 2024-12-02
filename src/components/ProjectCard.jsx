@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 function ProjectCard({ project }) {
     return (
-        <article className="group relative flex flex-col w-1/2 lg:w-1/3 min-w-[50%] lg:min-w-[33.33%] snap-start rounded-md overflow-hidden cursor-pointer">
+        <article className="group relative flex flex-col w-1/2 lg:w-1/3 min-w-[95%] md:min-w-[66.66%] lg:min-w-[33.33%] snap-start rounded-md overflow-hidden cursor-pointer">
             <div className="absolute z-[0] text-projectTextClamp text-[#363636] start-1/2 -translate-x-1/2">
                 {project.underneathText}
             </div>
