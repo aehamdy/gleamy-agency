@@ -1,14 +1,14 @@
 /* eslint-disable react/prop-types */
 function MarqueeBar({ variant, position}) {
-  const content = [
-    'creative design',
-    'ui/ux',
-    'marketing',
-    'motion',
-    'graphic design',
-    'animation',
-    'branding',
-  ];
+  // const content = [
+  //   'creative design',
+  //   'ui/ux',
+  //   'marketing',
+  //   'motion',
+  //   'graphic design',
+  //   'animation',
+  //   'branding',
+  // ];
 
   return (
     // <div

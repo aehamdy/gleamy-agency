@@ -14,7 +14,7 @@ export default {
         sectionHeadingClamp: 'clamp(2rem, 3vw, 3.5rem)',
         headingClamp: 'clamp(1.6rem, 4vw, 2.25rem)',
         paragraphClamp: 'clamp(1.3rem, 2.5vw, 2rem)',
-        projectTextClamp: 'clamp(1.8rem, 5vw, 2.5rem)',
+        projectTextClamp: 'clamp(1.3rem, 5vw, 2.5rem)',
       },
       fontFamily: {
         'roboto': "Roboto, sans-serif",
