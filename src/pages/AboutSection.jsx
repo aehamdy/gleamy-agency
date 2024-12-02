@@ -6,7 +6,7 @@ import Button from "../components/Button";
 
 function AboutSection() {
     return(
-        <section className="flex flex-col gap-8 text-start mt-[25%] md:mt-[5%]">
+        <section className="flex flex-col gap-8 text-start mt-spacing-sm md:mt-spacing-md lg:mt-spacing-lg">
             <SectionHeading text="About Us"/>
             <div className="flex items-center">
                 <div>

@@ -7,7 +7,10 @@ export default {
   theme: {
     extend: {
       spacing: {
-        'marquee-gap': '2rem', // Adjust the gap size as needed
+        'marquee-gap': '2rem',
+        'spacing-sm': '30%',
+        'spacing-md': '15%',
+        'spacing-lg': '5%',
       },
       fontSize: {
         navItemClamp: 'clamp(2rem, 3vw, 2.2rem)',

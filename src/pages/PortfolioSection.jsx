@@ -3,7 +3,7 @@ import Projects from "../components/Projects";
 
 function PortfolioSection() {
     return(
-        <section className="relative flex flex-col gap-8 text-start mt-[7%] md:mt-[5%] lg:mt-[0%]">
+        <section className="relative flex flex-col gap-8 text-start mt-spacing-sm md:mt-spacing-md lg:mt-spacing-lg">
             <SectionHeading text="Portfolio" />
             <Projects />
         </section>
